@@ -19,7 +19,7 @@
         <div class="card-custom">
             <h2 class="text-accent">Панель запуска</h2>
             <p>
-                <a href="/admin/" class="link-accent">Управление</a>
+                <a href="{% url 'admin:index' %}" class="link-accent">Управление</a>
                 <a href="{% url 'site_app:page' 1 %}" class="link-accent">Перейти на сайт</a>
             </p>
         </div>
